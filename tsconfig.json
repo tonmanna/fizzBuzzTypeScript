@@ -4,16 +4,11 @@
         "noImplicitAny": true,
         "outDir": "./dist/",
         "module": "commonjs",
-        "target": "es5",
-        "jsx": "react",
+        "target": "es6",
         "moduleResolution": "node",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "removeComments": false,
-        "suppressImplicitAnyIndexErrors": true,
-        "types": [
-            "mocha"
-        ]
     },
     "include": [
         "./src/**/*"
